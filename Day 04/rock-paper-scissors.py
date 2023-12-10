@@ -1,31 +1,3 @@
-rock = '''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-'''
-
-paper = '''
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-'''
-
-scissors = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
-
-#Write your code below this line 👇
 import random
 
 rock = '''
@@ -77,7 +49,7 @@ elif user_choice > computer_choice:
 elif computer_choice == user_choice:
   print("It's a draw")
 
-  
+
 # import random
 # game = [rock,paper,scissors]
 # computer_chose = random.randint(0,2)
